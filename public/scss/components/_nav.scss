@@ -1,0 +1,62 @@
+@import "./vars";
+
+.banner{
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  color: white;
+
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.logo{
+  p{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: start;
+  }
+}
+
+.menu{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  a:hover{
+    color:  #e7d2c8;
+  }
+}
+
+.btn{
+  a{
+    text-decoration: none;
+    color: white;  
+    background:  $color_amarillo;
+    padding: 10px 15px;
+    border-radius: 7px;
+    transition: .5s ease;
+    font-size: 15px;
+    box-shadow: $shadow_principal;
+  }
+
+  a:hover{
+    background: $color_amarillo_hover;
+  }
+}
