@@ -142,7 +142,7 @@
             </div>
             <div class="tarjeta_box_content_bottom">
               <div class="tarjeta_box_content_bottom_let">
-              It is one of the main skills in games. This ability grants Mario the ability to use pyrokinesis by launching Fireballs from his hand, You can defeat various enemies.
+                It was created by Shigeru Miyamoto. It has been featured as a minigame in the Super Mario Advance series and other games. Mario Bros. has been re-released for Wii, Nintendo 3DS.
               </div>
               <div class="tarjeta_box_content_bottom_right">
                 <div class="tarjeta_box_icon">
@@ -156,7 +156,7 @@
           </div>
         </div>
 
-        
+
         <div class="tarjetas_box">
           <div class="tarjeta_box_img">
             <picture class="picture-defer">
@@ -179,7 +179,7 @@
             </div>
             <div class="tarjeta_box_content_bottom">
               <div class="tarjeta_box_content_bottom_let">
-              It is one of the main skills in games. This ability grants Mario the ability to use pyrokinesis by launching Fireballs from his hand, You can defeat various enemies.
+                It is one of the main skills in games. This ability grants Mario the ability to use pyrokinesis by launching Fireballs from his hand, You can defeat various enemies.
               </div>
               <div class="tarjeta_box_content_bottom_right">
                 <div class="tarjeta_box_icon">
@@ -205,26 +205,25 @@
         <div class="tarjetas_box">
           <div class="tarjeta_box_img">
             <picture class="picture-defer">
-              <!-- <source type='image/webp' srcset="/public/img/mario_bros_home.png" media="(max-width: 700px)"> -->
               <source class="image source" type='image/webp' srcset="./public/img/default.png" data-img="/public/img/mario_bros_home_mapache.webp">
-              <img class="image" src="./public/img/default.png" data-img="/public/img/mario_bros_home_mapache.webp" alt="Mario Bros" title="Mario Bros" width="100" height="100">
+              <img class="image" src="./public/img/default.png" data-img="/public/img/mario_bros_home_mapache.webp" alt="Mario Bros" title="Mario Bros Raccoons" width="100" height="100">
             </picture>
           </div>
 
           <div class="tarjeta_box_content">
             <div class="tarjeta_box_content_top">
               <div class="tarjeta_box_content_top_let">
-                <p class="p1">#111</p>
-                <p class="p2">Mario Bros</p>
+                <p class="p1">#101</p>
+                <p class="p2">Mario Bros Raccoons</p>
               </div>
               <div class="tarjeta_box_content_top_right">
                 <p class="p1">Supply</p>
-                <p class="p2">10</p>
+                <p class="p2">20</p>
               </div>
             </div>
             <div class="tarjeta_box_content_bottom">
               <div class="tarjeta_box_content_bottom_let">
-              It is one of the main skills in games. This ability grants Mario the ability to use pyrokinesis by launching Fireballs from his hand, You can defeat various enemies.
+                First appearing in Super Mario Bros. 3, it was designed to serve as a separate item from the Fire Flower, and Raccoon Mario was considered as Flying Mario.
               </div>
               <div class="tarjeta_box_content_bottom_right">
                 <div class="tarjeta_box_icon">
@@ -238,30 +237,29 @@
           </div>
         </div>
 
-        
+
         <div class="tarjetas_box">
           <div class="tarjeta_box_img">
             <picture class="picture-defer">
-              <!-- <source type='image/webp' srcset="/public/img/mario_bros_home.png" media="(max-width: 700px)"> -->
-              <source class="image source" type='image/webp' srcset="./public/img/default.png" data-img="/public/img/mario_bros_home_bola_fuego_clasico.webp">
-              <img class="image" src="./public/img/default.png" data-img="/public/img/mario_bros_home_bola_fuego_clasico.webp" alt="Mario Bros" title="Mario Bros" width="100" height="100">
+              <source class="image source" type='image/webp' srcset="./public/img/default.png" data-img="/public/img/mario_bros_home_flor.webp">
+              <img class="image" src="./public/img/default.png" data-img="/public/img/mario_bros_home_flor.webp" alt="Mario Bros" title="Mario Bros Power" width="100" height="100">
             </picture>
           </div>
 
           <div class="tarjeta_box_content">
             <div class="tarjeta_box_content_top">
               <div class="tarjeta_box_content_top_let">
-                <p class="p1">#111</p>
-                <p class="p2">Mario Bros</p>
+                <p class="p1">#471</p>
+                <p class="p2">Mario Bros Power</p>
               </div>
               <div class="tarjeta_box_content_top_right">
                 <p class="p1">Supply</p>
-                <p class="p2">10</p>
+                <p class="p2">180</p>
               </div>
             </div>
             <div class="tarjeta_box_content_bottom">
               <div class="tarjeta_box_content_bottom_let">
-              It is one of the main skills in games. This ability grants Mario the ability to use pyrokinesis by launching Fireballs from his hand, You can defeat various enemies.
+                It is one of the main skills in games. This ability grants Mario the ability to use pyrokinesis by launching Fireballs from his hand, You can defeat various enemies.
               </div>
               <div class="tarjeta_box_content_bottom_right">
                 <div class="tarjeta_box_icon">
@@ -281,6 +279,80 @@
 
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Enemies -->
+  <div class="container">
+    <div class="content">
+      <div class="enemies">
+        <section class="enemies_content">
+          <header>
+            <h2>Enemies and obstacles</h2>
+          </header>
+          <p>Each enemies has their own power, choose the good Mario while sending them to dungeons, some Mario con perform better than others based on dungeon rules</p><br>
+          <div class="btn_enemies">
+            <a href=""><strong>CHECK ENEMIES</strong></a>
+          </div>
+        </section>
+        <div class="enemies_image">
+          <picture class="picture-defer">
+            <source class="image source" type='image/webp' srcset="./public/img/default.png" data-img="/public/img/mario_bros_home_bill_bala.webp">
+            <img class="image" src="./public/img/default.png" data-img="/public/img/mario_bros_home_bill_bala.webp" alt="Mario Bros Bill Bala" title="Mario Bros Bill Bala" width="100" height="100">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

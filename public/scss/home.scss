@@ -85,6 +85,13 @@
 }
 
 
+
+
+
+
+
+
+
 // Tarjetas
 
 .tarjetas{
@@ -92,6 +99,10 @@
   gap: 50px;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 70px;
+
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .tarjetas_title{
@@ -109,8 +120,10 @@
   border: 1px solid #ba3b3a;
 
   img{
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
     transition: all 300ms;
   }
   img:hover{
@@ -167,7 +180,11 @@
   color: white;
   justify-content: start;
   align-items: center;
-  // text-align: justify;
+
+  @media screen and (max-width: 450px) {
+    grid-auto-flow: row;
+    text-align: center;
+  }
 }
 
 .tarjeta_box_content_bottom_right{
@@ -179,5 +196,117 @@
   svg{
     width: 40px;
     fill: #e44e4e;
+    
+    @media screen and (max-width: 450px) {
+      display: none;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Enemies
+.enemies{
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  background: #ba3b3a;
+  border-radius: 10px;
+  box-shadow: $shadow_principal;
+  border: 2px solid #e44e4e;
+  margin: 70px 0;
+  padding: 40px;
+
+  @media screen and (max-width: 1050px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+.enemies_content{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  h2{
+    font-size: 50px;
+
+    @media screen and (max-width:700px){
+      font-size: 40px;
+    }
+  }
+
+  p{
+    font-size: 19px;
+    padding: 10px 0;
+  }
+}
+
+  .btn_enemies{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+    @media screen and (max-width: 1050px) {
+      justify-content: center;
+      // align-items: center;
+    }
+
+    a{
+      background: $color_amarillo;
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      border-radius: 10px;
+    }    
+  }
+
+.enemies_image{
+  margin: auto;
+  animation: movimiento 5s linear infinite;
+  
+  img{
+    max-width: 450px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+
+  }
+  @keyframes movimiento {
+    0%{
+      transform: translateX(0);
+    }
+    50%{
+      transform: translateX(5%);
+    }
+    100%{
+      transform: translateX(0);
+    }
   }
 }

@@ -69,7 +69,7 @@
 
 .banner_img{
   float: right;
-  animation: movimiento 2s linear infinite;
+  animation: movimiento 10s linear infinite;
   position: relative;
 
   img{
@@ -89,7 +89,7 @@
       transform: translateY(0);
     }
     50%{
-      transform: translateY(2%);
+      transform: translateY(5%);
     }
     100%{
       transform: translateY(0);
