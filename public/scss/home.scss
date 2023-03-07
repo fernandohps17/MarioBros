@@ -26,3 +26,158 @@
     font-size: 20px;
   }
 }
+
+
+
+// Feature
+.feature{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 80px;
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.feature_title{
+  margin-bottom: 50px;
+  
+  h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+  }
+}
+
+.feature_box{
+  background:  #f04c4c;
+  text-align: center;
+  padding: 30px;
+  border-radius: 7px;
+  box-shadow: $shadow_principal;
+  border: 1px solid  #d84444 ;
+  transition: all 300ms;
+
+  h2{
+    color: white;
+    padding: 10px;
+  }
+
+  p{
+    color: $color_blanco_gris;
+  }
+
+  img{
+    width: 120px;
+    height: 110px;
+  }
+}
+
+.feature_box:hover{
+  transform: scale(1.05);
+}
+
+.--show{
+  transform: scale(1.08);
+}
+
+
+// Tarjetas
+
+.tarjetas{
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 70px;
+}
+
+.tarjetas_title{
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 25px;
+}
+
+
+.tarjeta_box_img{
+  text-align: center;
+  background: #e44e4e;
+  border-radius: 7px 7px 0px 0px;
+  border: 1px solid #ba3b3a;
+
+  img{
+    width: 400px;
+    height: 400px;
+    transition: all 300ms;
+  }
+  img:hover{
+    transform: scale(1.05);
+  }
+}
+
+.tarjeta_box_content{
+  background: #ba3b3a;
+  padding: 20px 40px;
+  border-radius: 0px 0px 7px 7px;
+}
+
+
+.tarjeta_box_content_top{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.tarjeta_box_content_top_let{
+
+  .p1{
+    color: $color_blanco_gris;
+  }
+
+  .p2{
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+.tarjeta_box_content_top_right{
+  display: grid;
+  justify-content: end;
+  text-align: center;
+
+  .p1{
+    color: $color_blanco_gris;
+  }
+
+  .p2{
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+.tarjeta_box_content_bottom{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 50px;
+  color: white;
+  justify-content: start;
+  align-items: center;
+  // text-align: justify;
+}
+
+.tarjeta_box_content_bottom_right{
+  display: grid;
+  justify-content: end;
+}
+
+.tarjeta_box_icon{
+  svg{
+    width: 40px;
+    fill: #e44e4e;
+  }
+}
