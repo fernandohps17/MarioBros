@@ -203,10 +203,16 @@
 
 
         <div class="tarjetas_box">
-          <div class="tarjeta_box_img">
+          <!-- <div class="tarjeta_box_img">
             <picture class="picture-defer">
               <source class="image source" type='image/webp' srcset="./public/img/default.png" data-img="/public/img/mario_bros_home_mapache.webp">
               <img class="image" src="./public/img/default.png" data-img="/public/img/mario_bros_home_mapache.webp" alt="Mario Bros" title="Mario Bros Raccoons" width="100" height="100">
+            </picture>
+          </div> -->
+          <div class="tarjeta_box_img">
+            <picture class="picture-defer">
+              <source class="image source" type='image/webp' srcset="./public/img/default.png" data-img="/public/img/mario_bros_home_mapache.webp">
+              <img class="image" src="./public/img/default.png" data-img="/public/img/mario_bros_home_mapache.webp" alt="Mario Bros" title="Mario Bros Power" width="100" height="100">
             </picture>
           </div>
 
@@ -241,8 +247,8 @@
         <div class="tarjetas_box">
           <div class="tarjeta_box_img">
             <picture class="picture-defer">
-              <source class="image source" type='image/webp' srcset="./public/img/default.png" data-img="/public/img/mario_bros_home_flor.webp">
-              <img class="image" src="./public/img/default.png" data-img="/public/img/mario_bros_home_flor.webp" alt="Mario Bros" title="Mario Bros Power" width="100" height="100">
+              <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="/public/img/mario_bros_home_poderes.webp">
+              <img class="image" src="/public/img/default.png" data-img="/public/img/mario_bros_home_poderes.webp" alt="Mario Bros" title="Mario Bros Power" width="100" height="100">
             </picture>
           </div>
 
