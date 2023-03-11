@@ -1,0 +1,99 @@
+.footer_1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 70px 0;
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 50px;
+  }
+}
+
+.bg_footer{
+  background: #b42424 ;
+}
+
+.social{
+  color: white;
+  display: grid;
+  gap: 15px;
+
+  h2{
+    font-size: 35px;
+  }
+
+  p{
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+.info{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 20px;
+  }
+}
+
+.info_1{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  h2{
+    color: white;
+  }
+
+  p{
+    color: $color_blanco_gris;
+  }
+
+  a{
+    color: $color_blanco_gris;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: white;
+  }
+}
+
+.footer_iconos{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 1000px) {
+    justify-content: center;
+    align-items: center;
+  }
+
+  svg{
+    fill: white;
+    width: 20px;
+    background: #ba3b3a;
+    padding: 10px;
+    border: 1px solid #f04c4c;
+    border-radius: 7px;
+    box-shadow: $shadow_principal;
+  }
+  svg:hover{
+    background: #f04c4c;
+    cursor: pointer;
+  }
+}
+
+.footer_2{
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background: #ba3b3a;
+}

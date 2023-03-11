@@ -1,0 +1,22 @@
+// About
+.about{
+  display: grid;
+  gap: 30px;
+  text-align: center;
+  color: white;
+  padding: 50px;
+  margin: 70px 0;
+  background:  #ba3b3a ;
+  box-shadow: $shadow_principal;
+  border-radius: 7px;
+  border: 2px solid   #e44e4e;
+  letter-spacing: 0.5px;
+
+  h2{
+    font-size: 40px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+}

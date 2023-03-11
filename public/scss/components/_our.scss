@@ -1,0 +1,63 @@
+// Our Partner
+.our{
+  text-align: center;
+  color: white;
+  margin: 50px 0;
+}
+
+.our_text{
+  display: grid;
+  gap: 15px;
+}
+
+.our_title{
+  font-size: 25px;
+}
+
+.our_content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: #ba3b3a;
+  border-radius: 10px;
+  border: 1px solid #e44e4e;
+  box-shadow: $shadow_principal;
+  padding: 0 15px;
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
+  
+
+  img{
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+    transition: all 300ms;
+  }
+
+  img:hover{
+    transform: scale(1.5);
+  }
+}
+
+.border_bottom{
+  border-bottom: 1px dashed white;
+
+  @media screen and (max-width: 1000px) {
+    border: none;
+  }
+}
+
+.border{
+  border-left: 1px dashed white;
+  border-right: 1px dashed white;
+  @media screen and (max-width: 1000px) {
+    border: none;
+  }
+}
+.margin_top{
+  margin-top: 15px;
+}
+.margin_bottom{
+  margin-bottom: 15px;
+}

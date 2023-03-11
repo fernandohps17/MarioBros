@@ -1,0 +1,54 @@
+// Feature
+.feature{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 80px;
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.feature_title{
+  margin-bottom: 50px;
+  
+  h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+  }
+}
+
+.feature_box{
+  background:  #f04c4c;
+  text-align: center;
+  padding: 30px;
+  border-radius: 7px;
+  box-shadow: $shadow_principal;
+  border: 1px solid  #d84444 ;
+  transition: all 300ms;
+
+  h2{
+    color: white;
+    padding: 10px;
+  }
+
+  p{
+    color: $color_blanco_gris;
+  }
+
+  img{
+    width: 120px;
+    height: 110px;
+  }
+}
+
+.feature_box:hover{
+  transform: scale(1.05);
+}
+
+.--show{
+  transform: scale(1.08);
+}
