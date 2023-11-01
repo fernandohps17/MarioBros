@@ -27,7 +27,7 @@
             </div>
             <div class="tarjeta_box_content_bottom">
               <div class="tarjeta_box_content_bottom_let">
-                It was created by Shigeru Miyamoto. It has been featured as a minigame in the Super Mario Advance series and other games. Mario Bros. has been re-released for Wii, Nintendo 3DS.
+                It was created by Shigeru Miyamoto. It has been featured as a minigame in the Super Mario Advance series and other games. Mario Bros. has been re-released for Wii.
               </div>
               <div class="tarjeta_box_content_bottom_right">
                 <div class="tarjeta_box_icon">

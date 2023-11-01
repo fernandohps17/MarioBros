@@ -10,7 +10,7 @@
               <h1>Collect and Play Mario</h1>
             </header>
             <div class="parrafo">
-              <p>Team up for a paws-itively adorable adventure and Unique NFT Collectibles Game for Mario Lovers!</p>
+              <p>Team up for a paws-itively adorable adventure and Unique NFT <br> Collectibles Game for Mario Lovers!</p>
             </div><br><br><br>
             <div class="btns">
               <div class="btn">

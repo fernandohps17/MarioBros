@@ -1,6 +1,7 @@
 .header{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: calc(100vh - 206px);
 
   @media screen and (max-width: 1200px) {
     grid-template-columns: 1fr;
@@ -14,8 +15,7 @@
 
 .contenido{
   display: grid;
-  align-items: end;
-  margin-bottom: 40px;
+  align-items: center;
 }
 
 .contenido_text {
@@ -74,9 +74,9 @@
 
   img{
     display: block;
-    max-width: 520px;
+    max-width: 620px;
+    max-height: 650px;
     width: 100%;
-    max-height: 550px;
     height: 100%;
 
     @media screen and (max-width: 1200px) {
@@ -99,8 +99,8 @@
 
 .box_image{
   position: absolute;
-  bottom: 50px;
-  right: 150px;
+  bottom: 20%;
+  right: 17%;
   background:  $color_principal_box;
   padding: 10px 20px;
   border-radius: 7px;
