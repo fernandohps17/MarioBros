@@ -1,6 +1,6 @@
 <div class="container">
   <div class="content">
-    <div class="banner">
+    <div class="banner" id="inicio">
       <div class="logo" id="home"> 
         <p>MARIO</p>
       </div>

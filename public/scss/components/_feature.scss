@@ -1,7 +1,7 @@
 // Feature
 .feature{
   display: grid;
-  gap: 30px;
+  gap: 50px;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 80px;
 
@@ -24,7 +24,7 @@
 .feature_box{
   background:  #f04c4c;
   text-align: center;
-  padding: 30px;
+  padding: 40px 30px;
   border-radius: 7px;
   box-shadow: $shadow_principal;
   border: 1px solid  #d84444 ;

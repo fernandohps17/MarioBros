@@ -11,14 +11,14 @@
   <link rel="apple-touch-startup-image" href="./public/icon/favicon.ico">
   <link rel="icon" href="./public/icon/favicon.ico">
 
-  <title>Mario Bros | Fernando Perez</title>
+  <title>Mario Bros</title>
 </head>
 
 <body>
 
-
   <!-- Menu de Navegacion - Header -->
   <?php
+  require_once "./comons/btn_top.php";
   require_once "./comons/nav.php";
   require_once "./comons/header.php";
   require_once "./comons/about.php";
@@ -29,18 +29,6 @@
   require_once "./comons/join.php";
   require_once "./comons/footer.php";
   ?>
-
- 
-
-
-
-
-
-
-
-
-
-
 
   <script src="./public/js/carga_diferida.js"></script>
 </body>
