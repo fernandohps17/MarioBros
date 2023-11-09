@@ -84,6 +84,8 @@
   color: white;
   justify-content: start;
   align-items: center;
+  letter-spacing: 1px;
+  line-height: 22px;
 
   @media screen and (max-width: 450px) {
     grid-auto-flow: row;
