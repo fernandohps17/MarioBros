@@ -58,10 +58,11 @@
   a{
     color: $color_blanco_gris;
     text-decoration: none;
+    transition: 1s ease;
   }
   
   a:hover{
-    color: white;
+    color: $color_amarillo;
   }
 }
 
