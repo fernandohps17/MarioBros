@@ -1,3 +1,4 @@
+// Section Header
 .header{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -68,6 +69,7 @@
   }
 }
 
+// Section banner
 .banner_img{
   float: right;
   animation: movimiento 10s linear infinite;
@@ -98,6 +100,8 @@
   }
 }
 
+
+// Section box
 .box_image{
   position: absolute;
   bottom: 20%;
