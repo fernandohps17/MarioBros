@@ -7,8 +7,8 @@ Options ALL -Indexes
 </IfModule>
 
 #Redireccion 301
-RewriteCond %{HTTP_HOST} ^manisur.es [NC]
-RewriteRule ^(.*)$ https://www.mariobros.es/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^mariobros.com [NC]
+RewriteRule ^(.*)$ https://www.mariobros.com/$1 [L,R=301]
 
 RewriteEngine On
 RewriteCond %{HTTPS} off
